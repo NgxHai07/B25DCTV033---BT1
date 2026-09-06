@@ -10,7 +10,7 @@
             --text-color: #333333;
             --header-bg: #f9f9f9;
             --card-bg: #f4f4f4;
-            --primary-color: #A0191B; /* Màu đỏ PTIT */
+            --primary-color: #A0191B;
             --primary-hover: #7c1214;
         }
 
