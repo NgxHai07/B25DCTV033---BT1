@@ -163,7 +163,6 @@
     </footer>
 
     <script>
-        // 1. Logic hiển thị lời chào theo thời gian trong ngày
         const gioHienTai = new Date().getHours();
         const phanTuLoiChao = document.getElementById('loi-chao');
 
@@ -175,14 +174,14 @@
             phanTuLoiChao.innerText = 'Chào buổi tối, chúc bạn buổi tối an lành!';
         }
 
-        // 2. Logic nút bấm chuyển đổi giao diện Sáng / Tối (Dark Mode)
+
+
         const body = document.body;
         const btnDoiMau = document.getElementById('toggle-btn');
 
         btnDoiMau.addEventListener('click', function() {
             body.classList.toggle('dark-mode');
             
-            // Đổi nội dung chữ trên nút tùy theo trạng thái
             if (body.classList.contains('dark-mode')) {
                 btnDoiMau.innerText = 'Đổi màu nền (Chế độ sáng)';
             } else {
